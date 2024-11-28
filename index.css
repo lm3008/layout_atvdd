@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.imagens{
+    display: grid;
+    width: 80vw;
+    height: 510px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7px;
+    transform: translate(85%, 15%);
+
+}
+.um{
+    width: 330px;
+    height: 250px;
+    background-color: azure;
+}
+.img1{
+    width: 90%;
+    height: 90%;
+   background-image:url(download\ 7.jpg);
+   background-size: cover;
+   transform: translate(6%, 6%);
+}
+.dois{
+    width: 350px;
+    height: 250px;
+    background-color: azure;  
+}
+.img2{
+    width: 90%;
+    height: 90%;
+   background-image:url(download\ 7.jpg);
+   background-size: cover;
+   transform: translate(6%, 6%);
+}
+.tres{
+    width: 330px;
+    height: 250px;
+    background-color: azure;
+}
+.img3{
+    width: 90%;
+    height: 90%;
+   background-image:url(download\ 7.jpg);
+   background-size: cover;
+   transform: translate(6%, 6%);   
+}
+.quatro{
+    width: 350px;
+    height: 250px;
+    background-color: azure; 
+}
+.img4{
+    width: 90%;
+    height: 90%;
+   background-image:url(download\ 7.jpg);
+   background-size: cover;
+   transform: translate(6%, 6%);
+}
